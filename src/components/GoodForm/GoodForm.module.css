@@ -1,0 +1,25 @@
+.goodForm{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid red;
+    background-color: white;
+    color: black;
+}
+.goodForm input{
+    margin: 5px 20px;
+}
+.goodForm textarea{
+    margin: 5px 20px;
+}
+.goodForm img{
+    width: 200px;
+    height: 200px;
+}
+.GoodBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.GoodBlock>p{
+    font-size: 2em;
+}

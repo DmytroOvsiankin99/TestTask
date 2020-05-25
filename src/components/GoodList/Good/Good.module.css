@@ -1,0 +1,55 @@
+.good{
+    border: 3px solid white;
+    color: black;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    background-color: aquamarine;
+    width: 200px;
+}
+.good img{
+    height: 200px;
+}
+.discountSpan span{
+    padding: 0px 5px;
+    margin: 0px 5px;
+}
+.discountSpan .price{
+    text-decoration: line-through red;
+}
+.discountSpan .discount{
+    font-size: .6em;
+    font-weight: bold;
+}
+.discountSpan .priceWithDiscount{
+    background-color: yellow;
+    color: green;
+    border: 1px solid green;
+}
+.leftDays{
+    color: red;
+    text-decoration: underline red double;
+}
+.aboutField{
+    border:1px solid blue;
+    background-color: white;
+    padding: 20px;
+    font-size: .7em;
+}
+.control{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.control div{
+    padding: 10px;
+    cursor: pointer;
+}
+.control div:hover{
+    color: white;
+    background-color: black;
+    transition: all .3s ease;
+}

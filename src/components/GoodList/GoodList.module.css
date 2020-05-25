@@ -1,0 +1,33 @@
+.goodList{
+    background-color: darkgray;
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.newElement{
+    border: 3px solid white;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.newElement:hover{
+    color: black;
+    border-color: black;
+    background-color: white;
+}
+.newElement>a>div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+.newElement>a>div>div{
+    width: max-content;
+    margin: 0 auto;
+    font-size: 10em;
+}

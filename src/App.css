@@ -1,0 +1,16 @@
+.App{
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: max-content;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
